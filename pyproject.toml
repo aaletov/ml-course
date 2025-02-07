@@ -48,6 +48,7 @@ bokeh = "^2.3.0"
 gym = {version = "^0.18.0", optional = true}
 graphviz = "^0.16"
 plotly = "^5.22.0"
+pytest = "^8.2.2"
 
 [tool.poetry.extras]
 basic = ["Pillow", "tqdm", "scikit-image", "h5py", "pydotplus", "eli5", "PDPbox", "shap"]
